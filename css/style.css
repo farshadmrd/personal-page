@@ -1,0 +1,65 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'source-srifepro';
+  src: url(../font/SourceSerifPro-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+*{ font-family: 'source-srifepro';
+	direction: ltr;
+	margin: 0;
+	padding: 0;
+}
+.flex{
+	display: flex;
+	
+}
+.dir-col{
+	flex-direction: column;
+}
+body{
+	background-color:#262525;
+}
+header{
+	position: relative;
+}
+li{
+	list-style-type: none;
+}
+img[alt=header]{
+	height: 500px;
+	width:100%;
+}
+img[alt=porofile]{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -140px;
+	left: 30px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+#top{background-color: #9E9898;
+	height: 100px;
+}
+
+#top ul{display: flex;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 350px;
+	
+}
+#top a{
+	font-size: 20px;
+}
+#info{font-size: 20px;
+	padding-top: 100px;
+	padding-left: 100px;
+	height: 500px;
+	width: 300px;
+	background-color: white;
+}
